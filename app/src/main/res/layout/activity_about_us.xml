@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homewallp"
+    android:backgroundTint="@color/cardview_shadow_start_color"
+    android:backgroundTintMode="src_atop"
+    tools:context=".aboutUs">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        android:alpha="0.8"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="casual"
+        android:foregroundTint="@color/cardview_shadow_start_color"
+        android:text="Go Back"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:alpha="0.8"
+        android:fontFamily="casual"
+        android:text="About The Series"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="317dp"
+        android:layout_height="563dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.8"
+        android:fontFamily="casual"
+        android:text="Game Of Thrones’ (GoT) prequel House Of The Dragon (HotD) finally aired its pilot this August, receiving overwhelmingly good reception from fans of the first series, as well as fresh audiences and critics. And sure enough, it held its momentum until the Season 1 finale, leaving audiences even more excited for the confirmed Season 2 that's to air in 2024. Interestingly enough, the hype surrounding House Of The Dragon wasn’t as huge prior to the pilot release. Much of it can be attributed to the negative reception of Game Of Thrones’ final season, which aired in 2019. Both series are based on George R.R. Martin’s A Song Of Fire And Ice books.Despite the growing popularity of the series, however, it's been recently reported that one of the showrunners, Miguel Sapochnik, decided to exit the series' hands-on production, leaving co-creator Ryan Condal to solely man the fort. Still, Sapochnik will remain as one of the series' executive producers and will be replaced by fellow GoT veteran Alan Taylor. Sapochnik is most known to Game of Thrones' fans as the man behind some of the first series' most iconic episodes such as Hardhome and Battle of the Bastards. "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

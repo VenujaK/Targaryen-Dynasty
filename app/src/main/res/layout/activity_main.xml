@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homewallp"
+    android:backgroundTint="#65000000"
+    android:backgroundTintMode="src_atop"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/dislbl"
+        android:layout_width="259dp"
+        android:layout_height="484dp"
+        android:layout_marginTop="488dp"
+        android:alpha="0.7"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:capitalize="none"
+        android:fontFamily="casual"
+        android:foregroundTint="@color/cardview_shadow_start_color"
+        android:text="Almost two centuries before the Long Night, Red Wedding, or the Battle of the Bastards, another massive conflict wreaked havoc across Westeros. The first of many planned spin-offs of HBO’s landmark series Game of Thrones goes back to an era when the Targaryens ruled the Seven Kingdoms and dragons were plentiful.&amp; Based on material from George R. R. Martin’s book Fire &amp; Blood, House of the Dragon tells the story of the Dance of Dragons and the events leading up to the brutal civil war. &amp;King Viserys I Targaryen rules over an unprecedented time of peace, but questions about his succession threaten to send the realm into chaos.&amp; Will Princess Rhaenyra Targaryen sit on the Iron Throne, or is Westeros not ready for a queen?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="576dp"
+        android:alpha="0.8"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="casual"
+        android:foregroundTint="@color/cardview_shadow_start_color"
+        android:text="English"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="312dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="644dp"
+        android:alpha="0.8"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="casual"
+        android:foregroundTint="@color/cardview_shadow_start_color"
+        android:text="Sinhala"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbllang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:alpha="0"
+        android:fontFamily="casual"
+        android:text="Please select the preffered language"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.7"
+        android:fontFamily="casual"
+        android:onClick="aboutSeries"
+        android:text="About Series  |"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.7"
+        android:fontFamily="casual"
+        android:text="  Contact Us"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
